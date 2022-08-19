@@ -11,6 +11,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:padding="20dp"
+        android:background="@drawable/background"
         >
         <TextView
             android:layout_width="match_parent"
@@ -19,24 +20,38 @@
             android:gravity="center"
             android:textStyle="bold"
             android:textSize="50dp"
+            android:layout_marginTop="130dp"
+            android:textColor="@color/white"
             />
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/signup"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Sign Up"
+            android:layout_marginTop="50dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:background="@drawable/button_color1"
             />
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/login"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Login"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:background="@drawable/button_color1"
             />
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/about"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="About"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:background="@drawable/button_color3"
             />
 
     </LinearLayout>

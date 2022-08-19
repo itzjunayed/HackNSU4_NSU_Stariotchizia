@@ -11,6 +11,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:padding="20dp"
+        android:background="@drawable/background"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="0dp">
 
@@ -20,6 +21,8 @@
             android:gravity="center"
             android:text="Ride+"
             android:textSize="50dp"
+            android:layout_marginTop="100dp"
+            android:textColor="@color/white"
             android:textStyle="bold" />
 
         <EditText
@@ -28,6 +31,10 @@
             android:layout_height="wrap_content"
             android:hint="Username"
             android:textSize="20dp"
+            android:layout_marginTop="50dp"
+            android:textColor="@color/white"
+            android:textColorHint="#DDD8D8"
+            android:inputType="text"
             android:textStyle="normal" />
 
         <EditText
@@ -36,14 +43,22 @@
             android:layout_height="wrap_content"
             android:hint="Email Address"
             android:textSize="20dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/white"
+            android:textColorHint="#DDD8D8"
+            android:inputType="textEmailAddress"
             android:textStyle="normal" />
 
         <EditText
             android:id="@+id/nidSignup"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="NID Number"
+            android:hint="NID"
             android:textSize="20dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/white"
+            android:textColorHint="#DDD8D8"
+            android:inputType="number"
             android:textStyle="normal" />
 
         <EditText
@@ -52,6 +67,10 @@
             android:layout_height="wrap_content"
             android:hint="Password"
             android:textSize="20dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/white"
+            android:textColorHint="#DDD8D8"
+            android:inputType="textPassword"
             android:textStyle="normal" />
 
         <androidx.appcompat.widget.AppCompatButton
@@ -60,24 +79,33 @@
             android:layout_height="wrap_content"
             android:hint="register"
             android:text="Register"
+            android:layout_marginTop="30dp"
+            android:elevation="50dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:background="@drawable/button_color1"
             />
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:gravity="center"
+            android:layout_marginTop="20dp"
             >
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Don't have an account?"
+                android:text="Already have an account?"
+                android:textStyle="bold"
+                android:textColor="@color/white"
                 />
             <TextView
-                android:id="@+id/signup"
+                android:id="@+id/login"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Create ONE!"
+                android:text="LOGIN!"
                 android:textStyle="italic"
+                android:textColor="#A3E874"
                 android:paddingLeft="10dp"
                 />
 
