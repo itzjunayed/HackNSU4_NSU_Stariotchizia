@@ -59,14 +59,14 @@
             android:textColor="@color/black"
             android:background="@drawable/button_color1"
             android:layout_marginTop="40dp"
-            android:textStyle="bold"
+            android:textStyle="normal"
             />
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/logout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Log Out"
-            android:textStyle="bold"
+            android:textStyle="normal"
             android:layout_marginTop="20dp"
             android:textColor="@color/white"
             android:background="@drawable/button_color3"
